@@ -1,0 +1,11 @@
+http://localhost:3000
+http://localhost:8080
+cd ~/OneDrive/Desktop/Sejal/ASU/Blockchain/CSE540-BlockchainGroupProject-main/blockchain/honest_harvest_hardhat_files
+npx hardhat node
+cd ~/OneDrive/Desktop/Sejal/ASU/Blockchain/CSE540-BlockchainGroupProject-main/blockchain/honest_harvest_hardhat_files
+npx hardhat run scripts/deploy.js --network localhost
+cd ~/OneDrive/Desktop/Sejal/ASU/Blockchain/CSE540-BlockchainGroupProject-main
+docker-compose up --build
+
+docker-compose down -v
+docker-compose up --build
