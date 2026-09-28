@@ -1,4 +1,3 @@
-# CSE540-BlockchainApplications
 # The Honest Harvest | CSE540 - Blockchain Project
 
 
